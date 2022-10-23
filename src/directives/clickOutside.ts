@@ -46,8 +46,6 @@ export const vClickOutside: Directive<HTMLElement, Function> = (() => {
         window.removeEventListener("click", listener);
         allListeners.splice(eventIndex, 1);
       }
-
-      console.log(allListeners);
     },
   };
 })();
