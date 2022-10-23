@@ -1,6 +1,6 @@
 import { Directive } from "vue";
 
-export const vClickOutside: Directive<HTMLElement, Function> = (() => {
+export const clickOutside: Directive<HTMLElement, Function> = (() => {
   const checkIfClickedInside = (
     event: Event,
     element: HTMLElement,

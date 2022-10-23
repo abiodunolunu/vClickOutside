@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from "@vue/reactivity";
 import { onMounted } from "@vue/runtime-core";
-import { vClickOutside } from "./directives/clickOutside";
+import { clickOutside as vClickOutside } from "./directives/clickOutside";
 
 const documentClickedCount = ref(0);
 const outsideDivClickCount = ref(0);
